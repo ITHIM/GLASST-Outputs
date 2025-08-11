@@ -4,6 +4,7 @@
 
 1.  [ITHIM V1](#ITHIM-V1)
 2.  [ITHIM V2](#ITHIM-V2)
+3.  [Multi State Life Table](#mslt)
 
 ## 1. Integrated Transport and Health Impact Model (ITHIM)
 
@@ -47,10 +48,8 @@ To address these challenges, we developed ITHIM Global Version 2. This updated v
 
 A training dataset covering 28 cities was utilised to develop the models, with Bogotá selected as a use case for testing. The results demonstrate that key statistics, such as weekly trip rates, average travel times, mode shares by age and gender, and trip length distributions by modes, have been systematically compared with observed data. These comparisons show good matching accuracy, highlighting the potential of the approach to capture underlying trip patterns effectively. The method can potentially be tested in other study areas to further validate its robustness and applicability. The scripts are publicly available at: <https://github.com/Public-Health-Modelling-Cambridge/travelBehaviour>.
 
-1.2.2 Implementation of ITHIM Global Version 2 Link plus workshop
+### **MSLT Approach** {#mslt}
 
-2.  MSLT Approach
-
-We developed open source scripts for the multi-state life table approach (link repository) and applied in international settings (link study) and developed visualisation tools (link visual one and link visual two). In our international applications with included economic values and financial costs to address use cases needs in relation to value of statistical life and potential savings in health care costs of shift to active modes of transport. We developed open access tools to facilitate modelling of diseases transitions in cohort and microsimulation modelling of chronic diseases in the absence of publicly available data. Our tool is available as an R package (package) and related publication (disbayes). We developed a microsimulation health model and are in the final validation stages (link to repository).
+We developed open source scripts for the [multi-state life table approach](https://github.com/healthy-liveable-cities/Transport-Health-Assessment-Tool) and applied in [international settings](https://www.sciencedirect.com/science/article/pii/S2214140523000646) and developed visualisation tools [1](https://auo.org.au/that-melbourne/) and [2](https://auo.org.au/that-brisbane). In our international applications with included economic values and financial costs to address use cases needs in relation to value of statistical life and potential savings in health care costs of shift to active modes of transport. We developed open access tools to facilitate modelling of diseases transitions in cohort and microsimulation modelling of chronic diseases in the absence of publicly available data. Our tool is available as an [R package](https://cran.r-project.org/web/packages/disbayes/index.html) and [related publication](https://pmc.ncbi.nlm.nih.gov/articles/PMC7614284/). We developed a microsimulation health model and are in the [final validation stages](https://github.com/jibeproject/health_microsim).
 
 4.  Uncertainty and Value of Information (VoI) analysis
